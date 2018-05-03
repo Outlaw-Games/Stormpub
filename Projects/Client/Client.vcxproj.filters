@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Client\stdafx.cpp">
+      <Filter>Source\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\GameFont.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\MyNetGame.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\GameObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\Unit.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\UnitType.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\ClientNetworking.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\SceneManager.cpp">
+      <Filter>Source\ScenesAndManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\MenuScene.cpp">
+      <Filter>Source\ScenesAndManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\Collision.cpp">
+      <Filter>Source\Multi-Purpose</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\GameScene.cpp">
+      <Filter>Source\ScenesAndManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Client\ServerConnectScene.cpp">
+      <Filter>Source\ScenesAndManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Client\GameFont.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\MyNetGame.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\stdafx.h">
+      <Filter>Headers\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\targetver.h">
+      <Filter>Headers\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\GameObject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\Unit.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\UnitType.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\ClientNetworking.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\Scene.h">
+      <Filter>Headers\ScenesAndManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\SceneManager.h">
+      <Filter>Headers\ScenesAndManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\MenuScene.h">
+      <Filter>Headers\ScenesAndManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\Collision.h">
+      <Filter>Headers\Multi-Purpose</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\GameScene.h">
+      <Filter>Headers\ScenesAndManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\Constants.h">
+      <Filter>Headers\Multi-Purpose</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Client\ServerConnectScene.h">
+      <Filter>Headers\ScenesAndManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{04c1d724-2739-411d-bf2e-c9d3ac2bc408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{2180af3a-3cea-49d8-8828-5bdd0d4602bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform">
+      <UniqueIdentifier>{8f0d336b-346f-4973-a49f-ff5ea5302de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Platform">
+      <UniqueIdentifier>{fc276487-b5f7-4e8c-8498-69fb1506831b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\ScenesAndManager">
+      <UniqueIdentifier>{497b1acf-ea93-4b7f-ba41-da316addc384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Multi-Purpose">
+      <UniqueIdentifier>{bbcdfaa7-f8cb-4de2-bebb-d36b39cd4e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ScenesAndManager">
+      <UniqueIdentifier>{ba18a229-1074-4923-abbc-5596f4924d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Multi-Purpose">
+      <UniqueIdentifier>{fde63e23-e8db-402e-bc67-c92add70fc36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
